@@ -6,6 +6,16 @@
 - **Author:** Carter Wright
 - **Date:** January 18, 2026
 
+## Table of Contents
+- [Feature Proposal](#feature-proposal)
+- [User Stories](#user-stories)
+- [Data Model and Design](#data-model-and-design)
+- [API Design](#api-design)
+- [UI and UX Design](#ui-and-ux-design)
+- [Security and Route Protection](#security-and-route-protection)
+- [Assumptions and Constraints](#assumptions-and-constraints)
+- [References](#references)
+
 ## Feature Proposal
 
 The proposed feature for the music application is a **Playlist Management system**. This feature allows customers to create, manage, and organize playlists made up of songs in the application. Playlists enhance the user experience by giving customers a personalized way to group and revisit their favorite music.
@@ -28,6 +38,8 @@ Role-Based Access Control (RBAC) will differentiate how customers and admins int
 To support playlists, the following data entities are required:
 
 ![Music player UML diagram](../Images/Diagrams/musicplayerUML.png)
+
+![Music player ER diagram](../Images/Diagrams/musicplayerER.png)
 
 ### Playlist
 - id (primary key, UUID)
